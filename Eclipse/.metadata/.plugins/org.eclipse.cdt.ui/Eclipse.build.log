@@ -1,0 +1,20 @@
+04:58:05 **** Incremental Build of configuration Debug for project Eclipse ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Eclipse.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9978 bytes (30.5% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (14.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+04:58:06 Build Finished. 0 errors, 0 warnings. (took 694ms)
+
